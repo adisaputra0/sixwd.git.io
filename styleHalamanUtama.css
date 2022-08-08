@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #111;
+}
+#halamanUtama{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+}
+.dataKetua{
+    display: flex;
+    margin-top: 3%;
+    height: 400px;
+    width: 800px;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.425);
+    background-color: #222;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.fotoKetua{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.infoKetua{
+    width: 100%;
+}
+.gambar1{
+    width: 280px;
+    height: 300px;
+    border-radius: 50%;
+    filter: saturate(50%);
+}
+.motivasi1{
+    color: orange;
+}
+
+#halamanAnggota{
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+}
+.kumpulanAnggota{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
+.anggota{
+    margin: 10px;
+    display: flex;
+    background-color: #222;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.425);
+}
+.gambarAnggota{
+    width: 180px;
+    height: 200px;
+    border-radius: 50%;
+    filter: saturate(40%);
+    margin-right: 10px;
+    cursor: pointer;
+}
+.deskripsi{
+    text-align: start;
+}
+.anggota h2{
+    font-size: 20px;
+}
+@media screen and (max-width: 500px){
+    .halamanUtama{
+        width: 100%;
+    }
+    .dataKetua{
+        width: 100%;
+        height: 220px;
+    }
+    .gambar1{
+        width: 140px;
+        height: 150px;
+    }
+    .anggota{
+        width: 100%;
+        height: 150px;
+    }
+    .halamanAnggota{
+        width: 100%;
+    }
+    h1{
+        font-size: 15px;
+    }
+    h2{
+        font-size: 10px;
+    }
+    .anggota h2{
+        font-size: 10px;
+    }
+    .gambarAnggota{
+        width: 90px;
+        height: 90px;
+    }
+}
